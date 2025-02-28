@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import Navbar from './components/Navbar';
-import Notes from './components/Notes';
+import Navbar from './component/Navbar';
+import Notes from './component/Notes';
 
 
 function App() {
