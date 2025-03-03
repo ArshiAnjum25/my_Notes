@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Navbar from './component/Navbar';
 import Notes from './component/Notes';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       
       
       <Notes searchTerm={searchTerm}/>
+      <Footer/>
     </div>
   );
 }
